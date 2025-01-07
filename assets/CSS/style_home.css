@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100%;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: url("/assets/Home/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
