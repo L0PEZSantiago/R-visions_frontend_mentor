@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-
 }
 
 
@@ -15,4 +14,61 @@ body {
     background-repeat: no-repeat;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 
+.hero {
+    max-width: 1110px;
+    max-height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .hero_left {
+        width: 50%;
+
+        h1 {
+            color: var(--color-white, #FFF);
+            letter-spacing: 4px;
+            font-weight: 400;
+            font-size: var(--font-size-desktop-text-preset-5, 28px);
+            line-height: var(--font-size-desktop-text-preset-5, 28px);
+            text-transform: uppercase;
+            line-height: normal;
+            
+            span {
+                font-size: var(--font-size-desktop-text-preset-1, 144px);
+                font-family: Bellefair;
+            }
+        }
+
+        p {
+            font-family: Barlow;
+            color: var(--color-blue-300, #D0D6F9);
+            font-weight: 400;
+            font-size: var(--font-size-desktop-text-preset-3, 18px);
+            line-height: 32.4px;
+        }
+    }
+
+    .hero_right {
+        a {
+           border-radius: 999px;
+           background: var(--color-white, #FFF);
+           width: 272px;
+           height: 272px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-family: Bellefair;
+           color: var(--color-tertiary, #1F2432);
+           font-weight: 400;
+           text-transform: uppercase;
+           font-size: var(--font-size-desktop-text-preset-2, 32px);
+           text-decoration: none;
+        }
+    }
+}
